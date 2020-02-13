@@ -34,4 +34,17 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+   <repository>
+      <id>nexus-site</id>
+     <name>Internal snapshot release</name>
+        <url>http://3.6.86.72:8081/repository/SAMPLE-SNAP/</url>
+   </repository>
+   <repository>
+      <id>nexus-site</id>
+      <name>Internal release</name>
+        <url>http://3.6.86.72:8081/repository/SAMPLE-REL/</url>
+   </repository>
+</distributionManagement>
+
 </project>
